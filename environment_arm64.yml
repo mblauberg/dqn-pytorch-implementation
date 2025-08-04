@@ -1,0 +1,40 @@
+name: DQN2_arm64
+channels:
+  - apple
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.5
+  - pip
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - astroid
+  - box2d-py
+  - cloudpickle
+  - contourpy
+  - cycler
+  - dill
+  - farama-notifications
+  - fonttools
+  - gym
+  - gym-notices
+  - gymnasium
+  - isort
+  - joblib
+  - kiwisolver
+  - matplotlib
+  - mccabe
+  - pandas
+  - pygame
+  - pylint
+  - pyparsing
+  - pytz
+  - scikit-learn
+  - seaborn
+  - swig
+  - threadpoolctl
+  - tomli
+  - tomlkit
+  - typeguard
+  - tzdata

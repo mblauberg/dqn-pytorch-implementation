@@ -1,0 +1,51 @@
+# LaTeX build files
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+
+# Assignment PDFs and reports
+*.pdf
+Assignment-3-report-template*
+s4588982_BLAUBERG.pdf
+COMP3702_Assignment_3_2024.pdf
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# PyTorch models (keep only best models)
+saved_models/*.dat
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Training logs and temporary files
+*.tmp
+*.temp
+
+# Keep only best performing models
+saved_models/*.dat
+!saved_models/*duelling-dqn*.dat
+!saved_models/*_s_nn*.dat
